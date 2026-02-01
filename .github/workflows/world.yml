@@ -1,5 +1,5 @@
 name: World
-"on" : [push]
+"on" : [push, workflow_dispatch]
 jobs:
   world:
     runs-on: ubuntu-latest
