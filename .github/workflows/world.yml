@@ -1,0 +1,8 @@
+name: World
+"on" : [push]
+jobs:
+  world:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "World Wide Web!"
+      - uses: actions/checkout@v4
